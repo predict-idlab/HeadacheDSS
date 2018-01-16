@@ -5,7 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://chronicals.ugent.be/headache#2000> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
+    chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -14,177 +14,24 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2001> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2002> a chron:Headache ;
     chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2003> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2004> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2005> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2006> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2007> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2008> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2009> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2010> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2011> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2012> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "2-4" .
-
-<http://chronicals.ugent.be/headache#2013> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2014> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2015> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2016> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2017> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2018> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2019> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2020> a chron:Headache ;
     chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
@@ -193,8 +40,161 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2021> a chron:Headache ;
+<http://chronicals.ugent.be/headache#2004> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2005> a chron:Headache ;
     chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#2006> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2007> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#2008> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2009> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2010> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2011> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2012> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2013> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2014> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2015> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2016> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2017> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2018> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2019> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2020> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2021> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -212,18 +212,18 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2023> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2024> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
@@ -232,42 +232,42 @@
 <http://chronicals.ugent.be/headache#2025> a chron:Headache ;
     chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2026> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2027> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
+    chron:previousAttacks "2-4" .
 
 <http://chronicals.ugent.be/headache#2028> a chron:Headache ;
     chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "2-4" .
 
 <http://chronicals.ugent.be/headache#2029> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -275,25 +275,25 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2030> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2031> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2032> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
+    chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -302,8 +302,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2033> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -311,27 +311,27 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2034> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#2035> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "10-19" .
 
-<http://chronicals.ugent.be/headache#2035> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
 <http://chronicals.ugent.be/headache#2036> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
@@ -347,9 +347,9 @@
     chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2038> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
@@ -357,16 +357,16 @@
 
 <http://chronicals.ugent.be/headache#2039> a chron:Headache ;
     chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2040> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -374,132 +374,15 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2041> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2042> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2043> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2044> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2045> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2046> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2047> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2048> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2049> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2050> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2051> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2052> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2053> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2054> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2055> a chron:Headache ;
     chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
@@ -508,8 +391,116 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "10-19" .
 
-<http://chronicals.ugent.be/headache#2056> a chron:Headache ;
+<http://chronicals.ugent.be/headache#2043> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2044> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2045> a chron:Headache ;
     chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2046> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2047> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2048> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2049> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2050> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2051> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2052> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2053> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2054> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2055> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -517,9 +508,18 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "10-19" .
 
+<http://chronicals.ugent.be/headache#2056> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
 <http://chronicals.ugent.be/headache#2057> a chron:Headache ;
     chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -536,8 +536,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2059> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -545,7 +545,7 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2060> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -554,34 +554,25 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2061> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2062> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2063> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2064> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
+    chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -589,18 +580,27 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
+<http://chronicals.ugent.be/headache#2064> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
 <http://chronicals.ugent.be/headache#2065> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2066> a chron:Headache ;
     chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -608,35 +608,35 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2067> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
+    chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2068> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
+    chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2069> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2070> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -644,16 +644,16 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2071> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
+    chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2072> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupJ ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -662,9 +662,9 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2073> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
@@ -673,14 +673,14 @@
 <http://chronicals.ugent.be/headache#2074> a chron:Headache ;
     chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2075> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -689,9 +689,9 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2076> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
@@ -700,15 +700,15 @@
 <http://chronicals.ugent.be/headache#2077> a chron:Headache ;
     chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2078> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -716,6 +716,15 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2079> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2080> a chron:Headache ;
     chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
@@ -724,17 +733,8 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2080> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
 <http://chronicals.ugent.be/headache#2081> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -743,7 +743,7 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2082> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -752,7 +752,7 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2083> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -761,7 +761,7 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2084> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
+    chron:hasDuration chron:DurationGroupJ ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -772,7 +772,7 @@
 <http://chronicals.ugent.be/headache#2085> a chron:Headache ;
     chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
@@ -780,15 +780,15 @@
 
 <http://chronicals.ugent.be/headache#2086> a chron:Headache ;
     chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2087> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -797,33 +797,6 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2088> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2089> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2090> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2091> a chron:Headache ;
     chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
@@ -832,18 +805,45 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2092> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+<http://chronicals.ugent.be/headache#2089> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2090> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2091> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2092> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2093> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -851,7 +851,7 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2094> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -860,26 +860,26 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2095> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2096> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2097> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -887,17 +887,17 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2098> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
+    chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2099> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -905,17 +905,17 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2100> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
+    chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2101> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -923,8 +923,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2102> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -932,8 +932,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2103> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -941,16 +941,7 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2104> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2105> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -958,17 +949,26 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2106> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
+<http://chronicals.ugent.be/headache#2105> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
+<http://chronicals.ugent.be/headache#2106> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
 <http://chronicals.ugent.be/headache#2107> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -978,7 +978,7 @@
 
 <http://chronicals.ugent.be/headache#2108> a chron:Headache ;
     chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -986,6 +986,60 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2109> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2110> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2111> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2112> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2113> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2114> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2115> a chron:Headache ;
     chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
@@ -994,68 +1048,14 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2110> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2111> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2112> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2113> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2114> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2115> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
 <http://chronicals.ugent.be/headache#2116> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
+    chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2117> a chron:Headache ;
     chron:hasDuration chron:DurationGroupG ;
@@ -1064,11 +1064,11 @@
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2118> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1076,8 +1076,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2119> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1085,7 +1085,25 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2120> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2121> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2122> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -1093,26 +1111,8 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2121> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2122> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
 <http://chronicals.ugent.be/headache#2123> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -1121,18 +1121,18 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2124> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
+    chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2125> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
@@ -1148,8 +1148,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2127> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1157,8 +1157,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2128> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1166,7 +1166,7 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2129> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -1175,16 +1175,16 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2130> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2131> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
+    chron:hasDuration chron:DurationGroupJ ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -1194,7 +1194,7 @@
 
 <http://chronicals.ugent.be/headache#2132> a chron:Headache ;
     chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1202,7 +1202,16 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2133> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2134> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupJ ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -1210,8 +1219,8 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2134> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
+<http://chronicals.ugent.be/headache#2135> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -1219,26 +1228,17 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2135> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
 <http://chronicals.ugent.be/headache#2136> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
+    chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2137> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupJ ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -1247,8 +1247,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2138> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1256,9 +1256,9 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2139> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
+    chron:hasDuration chron:DurationGroupJ ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
@@ -1266,6 +1266,15 @@
 
 <http://chronicals.ugent.be/headache#2140> a chron:Headache ;
     chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2141> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -1273,18 +1282,9 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2141> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
 <http://chronicals.ugent.be/headache#2142> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1292,8 +1292,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2143> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1301,18 +1301,18 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2144> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
+    chron:hasDuration chron:DurationGroupJ ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "2-4" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2145> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
@@ -1320,7 +1320,7 @@
 
 <http://chronicals.ugent.be/headache#2146> a chron:Headache ;
     chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1328,8 +1328,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2147> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1337,25 +1337,25 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2148> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
+    chron:hasDuration chron:DurationGroupJ ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "2-4" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2149> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2150> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -1364,26 +1364,26 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2151> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2152> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2153> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1391,24 +1391,6 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2154> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2155> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2156> a chron:Headache ;
     chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
@@ -1417,18 +1399,36 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2157> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
+<http://chronicals.ugent.be/headache#2155> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupJ ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2158> a chron:Headache ;
+<http://chronicals.ugent.be/headache#2156> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2157> a chron:Headache ;
     chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2158> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1447,56 +1447,56 @@
 <http://chronicals.ugent.be/headache#2160> a chron:Headache ;
     chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2161> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
+    chron:previousAttacks "2-4" .
 
 <http://chronicals.ugent.be/headache#2162> a chron:Headache ;
     chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2163> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2164> a chron:Headache ;
     chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2165> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2164> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2165> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2166> a chron:Headache ;
     chron:hasDuration chron:DurationGroupJ ;
@@ -1505,11 +1505,11 @@
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2167> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1517,8 +1517,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2168> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1527,16 +1527,16 @@
 
 <http://chronicals.ugent.be/headache#2169> a chron:Headache ;
     chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2170> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1545,7 +1545,7 @@
 
 <http://chronicals.ugent.be/headache#2171> a chron:Headache ;
     chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1553,13 +1553,13 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2172> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2173> a chron:Headache ;
     chron:hasDuration chron:DurationGroupF ;
@@ -1571,16 +1571,7 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2174> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2175> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -1588,9 +1579,18 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2176> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
+<http://chronicals.ugent.be/headache#2175> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#2176> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1598,7 +1598,7 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2177> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -1607,17 +1607,17 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2178> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
+    chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2179> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1627,24 +1627,24 @@
 <http://chronicals.ugent.be/headache#2180> a chron:Headache ;
     chron:hasDuration chron:DurationGroupJ ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2181> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2182> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1652,7 +1652,7 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2183> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -1661,132 +1661,15 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2184> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
+    chron:previousAttacks "2-4" .
 
 <http://chronicals.ugent.be/headache#2185> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2186> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2187> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2188> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2189> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2190> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2191> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2192> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2193> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2194> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2195> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2196> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2197> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2198> a chron:Headache ;
     chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
@@ -1795,17 +1678,71 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2199> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
+<http://chronicals.ugent.be/headache#2186> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "2-4" .
+    chron:previousAttacks "10-19" .
 
-<http://chronicals.ugent.be/headache#2200> a chron:Headache ;
+<http://chronicals.ugent.be/headache#2187> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2188> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2189> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2190> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2191> a chron:Headache ;
     chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2192> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2193> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -1813,10 +1750,73 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2201> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
+<http://chronicals.ugent.be/headache#2194> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2195> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2196> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2197> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2198> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2199> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2200> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#2201> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
@@ -1824,35 +1824,35 @@
 
 <http://chronicals.ugent.be/headache#2202> a chron:Headache ;
     chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2203> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2204> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2205> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
@@ -1865,11 +1865,11 @@
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2207> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1877,18 +1877,18 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2208> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2209> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
@@ -1896,33 +1896,6 @@
 
 <http://chronicals.ugent.be/headache#2210> a chron:Headache ;
     chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2211> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2212> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2213> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -1930,8 +1903,35 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
+<http://chronicals.ugent.be/headache#2211> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2212> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2213> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
 <http://chronicals.ugent.be/headache#2214> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupJ ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -1940,16 +1940,16 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2215> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2216> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -1958,17 +1958,17 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2217> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2218> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -1976,51 +1976,42 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2219> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
+    chron:hasDuration chron:DurationGroupJ ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2220> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2221> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2222> a chron:Headache ;
     chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2223> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "10-19" .
 
-<http://chronicals.ugent.be/headache#2224> a chron:Headache ;
+<http://chronicals.ugent.be/headache#2221> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2222> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2223> a chron:Headache ;
     chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
@@ -2028,6 +2019,15 @@
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2224> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2225> a chron:Headache ;
     chron:hasDuration chron:DurationGroupJ ;
@@ -2036,28 +2036,10 @@
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2226> a chron:Headache ;
     chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "2-4" .
-
-<http://chronicals.ugent.be/headache#2227> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2228> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2065,9 +2047,27 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2229> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+<http://chronicals.ugent.be/headache#2227> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2228> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2229> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2075,43 +2075,34 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2230> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2231> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2232> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2233> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2234> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2119,26 +2110,35 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2235> a chron:Headache ;
+<http://chronicals.ugent.be/headache#2234> a chron:Headache ;
     chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
+<http://chronicals.ugent.be/headache#2235> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
 <http://chronicals.ugent.be/headache#2236> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2237> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2147,8 +2147,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2238> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2156,7 +2156,7 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2239> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2165,25 +2165,16 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2240> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2241> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2242> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+<http://chronicals.ugent.be/headache#2241> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2191,8 +2182,17 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
+<http://chronicals.ugent.be/headache#2242> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
 <http://chronicals.ugent.be/headache#2243> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2201,7 +2201,7 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2244> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2210,35 +2210,35 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2245> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2246> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2247> a chron:Headache ;
     chron:hasDuration chron:DurationGroupJ ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2246> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2247> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2248> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2246,80 +2246,80 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2249> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2250> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2251> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2252> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2253> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2254> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#2255> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2255> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Mild ;
+<http://chronicals.ugent.be/headache#2256> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2256> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
 <http://chronicals.ugent.be/headache#2257> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2327,16 +2327,34 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2258> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2259> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2260> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2261> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupJ ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2344,26 +2362,8 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2260> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2261> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
 <http://chronicals.ugent.be/headache#2262> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2372,8 +2372,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2263> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2381,33 +2381,6 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2264> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2265> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2266> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2267> a chron:Headache ;
     chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
@@ -2415,6 +2388,33 @@
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2265> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2266> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2267> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2268> a chron:Headache ;
     chron:hasDuration chron:DurationGroupE ;
@@ -2426,16 +2426,16 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2269> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2270> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2444,9 +2444,9 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2271> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
+    chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
@@ -2454,26 +2454,26 @@
 
 <http://chronicals.ugent.be/headache#2272> a chron:Headache ;
     chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
+    chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2273> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2274> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
@@ -2489,17 +2489,17 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2276> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupJ ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
+    chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2277> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2507,7 +2507,7 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2278> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2516,44 +2516,44 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2279> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
+    chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2280> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2281> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2281> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2282> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2283> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
+<http://chronicals.ugent.be/headache#2282> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2283> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2561,8 +2561,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2284> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2570,16 +2570,7 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2285> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2286> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2587,8 +2578,17 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
+<http://chronicals.ugent.be/headache#2286> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
 <http://chronicals.ugent.be/headache#2287> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2597,8 +2597,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2288> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2606,7 +2606,34 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2289> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2290> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2291> a chron:Headache ;
     chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2292> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2614,36 +2641,9 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2290> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2291> a chron:Headache ;
+<http://chronicals.ugent.be/headache#2293> a chron:Headache ;
     chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2292> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2293> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2651,18 +2651,18 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2294> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
+    chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2295> a chron:Headache ;
     chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
@@ -2678,8 +2678,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2297> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2687,18 +2687,18 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2298> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2299> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
@@ -2714,8 +2714,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2301> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2723,8 +2723,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2302> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2732,25 +2732,16 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2303> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2304> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2305> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2758,14 +2749,23 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2306> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
+<http://chronicals.ugent.be/headache#2305> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2306> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2307> a chron:Headache ;
     chron:hasDuration chron:DurationGroupE ;
@@ -2777,7 +2777,7 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2308> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2786,8 +2786,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2309> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2795,8 +2795,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2310> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2804,16 +2804,34 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2311> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2312> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2313> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "2-4" .
 
-<http://chronicals.ugent.be/headache#2312> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
+<http://chronicals.ugent.be/headache#2314> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2821,8 +2839,17 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2313> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+<http://chronicals.ugent.be/headache#2315> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2316> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2830,36 +2857,9 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2314> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "2-4" .
-
-<http://chronicals.ugent.be/headache#2315> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2316> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
 <http://chronicals.ugent.be/headache#2317> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2869,24 +2869,24 @@
 <http://chronicals.ugent.be/headache#2318> a chron:Headache ;
     chron:hasDuration chron:DurationGroupE ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2319> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
+<http://chronicals.ugent.be/headache#2319> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
 <http://chronicals.ugent.be/headache#2320> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Moderate ;
+    chron:hasDuration chron:DurationGroupI ;
+    chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2894,8 +2894,8 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2321> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -2903,16 +2903,16 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2322> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupG ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "2-4" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2323> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasDuration chron:DurationGroupH ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2921,6 +2921,24 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2324> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupH ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2325> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#2326> a chron:Headache ;
     chron:hasDuration chron:DurationGroupJ ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Phonophobia ;
@@ -2929,8 +2947,8 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2325> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
+<http://chronicals.ugent.be/headache#2327> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupI ;
     chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
@@ -2938,64 +2956,46 @@
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2326> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
+<http://chronicals.ugent.be/headache#2328> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupJ ;
     chron:hasIntensity chron:Mild ;
     chron:hasSymptom chron:Photophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "20" .
-
-<http://chronicals.ugent.be/headache#2327> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupH ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
-<http://chronicals.ugent.be/headache#2328> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2329> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupF ;
+    chron:hasDuration chron:DurationGroupG ;
     chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2330> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasDuration chron:DurationGroupJ ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2331> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
+    chron:hasDuration chron:DurationGroupF ;
     chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
+    chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2332> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupI ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
@@ -3012,7 +3012,7 @@
 
 <http://chronicals.ugent.be/headache#2334> a chron:Headache ;
     chron:hasDuration chron:DurationGroupF ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -3020,35 +3020,35 @@
     chron:previousAttacks "10-19" .
 
 <http://chronicals.ugent.be/headache#2335> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Moderate ;
+    chron:hasSymptom chron:Photophobia ;
+    chron:isCharacterizedByPain chron:Pressing ;
+    chron:isLocated chron:Bilateral ;
+    chron:isType chron:Tension ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#2336> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
     chron:previousAttacks "20" .
 
-<http://chronicals.ugent.be/headache#2336> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Mild ;
-    chron:hasSymptom chron:Phonophobia ;
-    chron:isCharacterizedByPain chron:Pressing ;
-    chron:isLocated chron:Bilateral ;
-    chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
-
 <http://chronicals.ugent.be/headache#2337> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupG ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Photophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
-    chron:previousAttacks "10-19" .
+    chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2338> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupJ ;
-    chron:hasIntensity chron:Mild ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Moderate ;
     chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
@@ -3056,9 +3056,9 @@
     chron:previousAttacks "20" .
 
 <http://chronicals.ugent.be/headache#2339> a chron:Headache ;
-    chron:hasDuration chron:DurationGroupE ;
-    chron:hasIntensity chron:Moderate ;
-    chron:hasSymptom chron:Photophobia ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Mild ;
+    chron:hasSymptom chron:Phonophobia ;
     chron:isCharacterizedByPain chron:Pressing ;
     chron:isLocated chron:Bilateral ;
     chron:isType chron:Tension ;
