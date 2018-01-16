@@ -10,7 +10,7 @@ predictions are stored in the output folder, which can then be processed in orde
 
 ### 1. Installing all dependencies
 
-The code is Python3 compliant. All dependencies can easily be installed as follows: `pip install -r requirements.txt`
+The code can be run with Python3. All dependencies can easily be installed as follows: `pip install -r requirements.txt`
 
 ### 2. Generating the Knowledge Base with the SemanticProcessor
 
