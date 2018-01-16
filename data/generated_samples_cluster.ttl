@@ -1,0 +1,5071 @@
+@prefix chron: <http://chronicals.ugent.be/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://chronicals.ugent.be/headache#1000> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1001> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1002> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1003> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1004> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1005> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1006> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1007> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1008> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1009> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1010> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1011> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1012> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#1013> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1014> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1015> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1016> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1017> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "5-9" .
+
+<http://chronicals.ugent.be/headache#1018> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1019> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1020> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1021> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1022> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1023> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1024> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1025> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1026> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1027> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#1028> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1029> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1030> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1031> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1032> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1033> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1034> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#1035> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1036> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1037> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1038> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1039> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#1040> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1041> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "5-9" .
+
+<http://chronicals.ugent.be/headache#1042> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1043> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1044> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1045> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1046> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1047> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1048> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1049> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1050> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1051> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1052> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1053> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1054> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1055> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1056> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1057> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1058> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1059> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1060> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1061> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1062> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1063> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1064> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1065> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1066> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1067> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1068> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1069> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1070> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#1071> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1072> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1073> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1074> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1075> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1076> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1077> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1078> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1079> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1080> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1081> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1082> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1083> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1084> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1085> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1086> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1087> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1088> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1089> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1090> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1091> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1092> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1093> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1094> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1095> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1096> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1097> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1098> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1099> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1100> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1101> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "5-9" .
+
+<http://chronicals.ugent.be/headache#1102> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1103> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1104> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "5-9" .
+
+<http://chronicals.ugent.be/headache#1105> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1106> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1107> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1108> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1109> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1110> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1111> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1112> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1113> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1114> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1115> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1116> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1117> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1118> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1119> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1120> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1121> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1122> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1123> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1124> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1125> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1126> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1127> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1128> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1129> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1130> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1131> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1132> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1133> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1134> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1135> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1136> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#1137> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1138> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1139> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1140> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1141> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1142> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1143> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1144> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1145> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1146> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1147> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1148> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#1149> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1150> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1151> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1152> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1153> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1154> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1155> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1156> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1157> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1158> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1159> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1160> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1161> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1162> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#1163> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1164> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1165> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1166> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1167> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1168> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1169> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1170> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1171> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1172> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1173> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1174> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1175> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#1176> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1177> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1178> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1179> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1180> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1181> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1182> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1183> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1184> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1185> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1186> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1187> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1188> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#1189> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1190> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1191> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1192> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1193> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1194> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1195> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1196> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1197> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1198> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1199> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1200> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1201> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1202> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1203> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1204> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1205> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1206> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1207> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1208> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1209> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1210> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1211> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1212> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1213> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1214> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1215> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1216> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1217> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1218> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1219> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1220> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1221> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "5-9" .
+
+<http://chronicals.ugent.be/headache#1222> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1223> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1224> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1225> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1226> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1227> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1228> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1229> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1230> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1231> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1232> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1233> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1234> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1235> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1236> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1237> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1238> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1239> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1240> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1241> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1242> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1243> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "5-9" .
+
+<http://chronicals.ugent.be/headache#1244> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1245> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1246> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1247> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1248> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1249> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1250> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "5-9" .
+
+<http://chronicals.ugent.be/headache#1251> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1252> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1253> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1254> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1255> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1256> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1257> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1258> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1259> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "5-9" .
+
+<http://chronicals.ugent.be/headache#1260> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "5-9" .
+
+<http://chronicals.ugent.be/headache#1261> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1262> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1263> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1264> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "5-9" .
+
+<http://chronicals.ugent.be/headache#1265> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1266> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1267> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1268> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1269> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1270> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1271> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1272> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1273> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1274> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1275> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1276> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1277> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1278> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1279> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1280> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1281> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1282> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1283> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1284> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1285> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "5-9" .
+
+<http://chronicals.ugent.be/headache#1286> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1287> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1288> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1289> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1290> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1291> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1292> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1293> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1294> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1295> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1296> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1297> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1298> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1299> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1300> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1301> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1302> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1303> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1304> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1305> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1306> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1307> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1308> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#1309> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#1310> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1311> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1312> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1313> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1314> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1315> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "5-9" .
+
+<http://chronicals.ugent.be/headache#1316> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1317> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1318> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1319> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1320> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1321> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1322> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1323> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1324> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1325> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1326> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1327> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1328> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1329> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1330> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1331> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1332> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1333> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1334> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1335> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1336> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1337> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1338> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1339> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1340> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1341> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1342> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1343> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1344> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1345> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1346> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1347> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1348> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1349> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1350> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1351> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1352> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1353> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1354> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1355> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1356> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1357> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1358> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1359> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1360> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1361> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1362> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "5-9" .
+
+<http://chronicals.ugent.be/headache#1363> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1364> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1365> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1366> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1367> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1368> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1369> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1370> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "5-9" .
+
+<http://chronicals.ugent.be/headache#1371> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1372> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1373> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1374> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1375> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1376> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1377> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1378> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1379> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1380> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1381> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1382> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1383> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1384> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1385> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1386> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1387> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1388> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1389> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1390> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1391> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1392> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1393> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1394> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1395> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1396> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1397> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1398> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1399> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1400> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1401> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1402> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1403> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1404> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1405> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "5-9" .
+
+<http://chronicals.ugent.be/headache#1406> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1407> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1408> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1409> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1410> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1411> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1412> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1413> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1414> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Ptosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1415> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1416> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1417> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "2-4" .
+
+<http://chronicals.ugent.be/headache#1418> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1419> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1420> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1421> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1422> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1423> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1424> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1425> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1426> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "5-9" .
+
+<http://chronicals.ugent.be/headache#1427> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1428> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Pulsating ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1429> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Miosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1430> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1431> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Miosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1432> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Rhinorrhoea,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1433> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Lacrimation,
+        chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1434> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1435> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "10-19" .
+
+<http://chronicals.ugent.be/headache#1436> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1437> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Lacrimation,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Sweating ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1438> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Lacrimation,
+        chron:Ptosis ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1439> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1440> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Nasal_Congestion ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1441> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupF ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Conjunctival_Injection,
+        chron:Eyelid_Oedema,
+        chron:Miosis,
+        chron:Nasal_Congestion,
+        chron:Ptosis,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Unilateral ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+
+<http://chronicals.ugent.be/headache#1442> a chron:Headache ;
+    chron:hasDuration chron:DurationGroupE ;
+    chron:hasIntensity chron:Severe ;
+    chron:hasSymptom chron:Eyelid_Oedema,
+        chron:Rhinorrhoea ;
+    chron:isCharacterizedByPain chron:Stabbing ;
+    chron:isLocated chron:Orbital ;
+    chron:isType chron:Cluster ;
+    chron:previousAttacks "20" .
+

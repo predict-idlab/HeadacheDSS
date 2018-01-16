@@ -24,6 +24,9 @@ from SemanticProcessor import encoder, decoder, generator
 
 # Surpress warnings
 import warnings
+
+import tqdm
+
 warnings.filterwarnings('ignore')
 
 # Read the data
@@ -153,23 +156,23 @@ def oversample_prior_knowledge(X_train, y_train):
 
     # Generate the samples in the form of RDF-files
     generator.generate_samples(
-        'Cluster', ['SemanticProcessor/data/headache_KG.ttl',
-                    'SemanticProcessor/data/ICHD_KB.ttl'],
+        'Cluster', ['data/headache_KG.ttl',
+                    'data/ICHD_KB.ttl'],
             n=n_cluster_samples, id_offset=1000,
-            output_path='SemanticProcessor/data/generated_samples_cluster.ttl'
+            output_path='data/generated_samples_cluster.ttl'
     )
     generator.generate_samples(
-        'Tension', ['SemanticProcessor/data/headache_KG.ttl',
-                    'SemanticProcessor/data/ICHD_KB.ttl'],
+        'Tension', ['data/headache_KG.ttl',
+                    'data/ICHD_KB.ttl'],
             n=n_tension_samples, id_offset=2000,
-            output_path='SemanticProcessor/data/generated_samples_tension.ttl'
+            output_path='data/generated_samples_tension.ttl'
     )
 
     # Decoded the generated RDF-files to get a pandas dataframe
     new_df = decoder.decode(
         Graph(
         ).parse(
-            "SemanticProcessor/data/generated_samples_cluster.ttl",
+            "data/generated_samples_cluster.ttl",
                 format="turtle")
     )
 
@@ -185,7 +188,7 @@ def oversample_prior_knowledge(X_train, y_train):
 
     new_df = decoder.decode(
         Graph(
-        ).parse("SemanticProcessor/data/generated_samples_tension.ttl",
+        ).parse("data/generated_samples_tension.ttl",
                 format="turtle")
     )
 
@@ -202,7 +205,7 @@ def oversample_prior_knowledge(X_train, y_train):
     return X_train, y_train, np.array([1.0] * len(y_train))
 
 
-N_SIMULATIONS = 100
+N_SIMULATIONS = 10
 samplers = {
     'None': oversample_none,
     'SMOTE': oversample_SMOTE,
@@ -221,7 +224,7 @@ for sampler in samplers:
         os.makedirs('output' + os.sep + 'oversampling' + os.sep + sampler)
 
 
-for _ in range(N_SIMULATIONS):
+for _ in tqdm.tqdm(range(N_SIMULATIONS)):
     # Generate a random seed, to make sure every sampler gets the same data
     SEED = np.random.randint(1000000)
     np.random.seed(SEED)

@@ -1,15 +1,11 @@
 from rdflib import URIRef, BNode, Literal, Graph, Namespace
 from rdflib.namespace import RDF, FOAF, OWL, RDFS, NamespaceManager
 from rdflib.extras.infixowl import Restriction, Individual
-import concepts as concepts
+import SemanticProcessor.concepts as concepts
 import numpy as np
 
 
-def generate_prototype(class_name, kb, output_path='data/prototype.ttl'):
-	pass
-
-
-def generate_samples(class_name, graphs, n=10, output_path='data/generated_samples.ttl', id_offset=10000):
+def generate_samples(class_name, graphs, n=10, output_path='../data/generated_samples.ttl', id_offset=10000):
 	# Initialize the graph by parsing all given KG's
 	g = Graph()
 	for graph in graphs:

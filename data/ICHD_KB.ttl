@@ -1,0 +1,79 @@
+@prefix chron: <http://chronicals.ugent.be/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+chron:Cluster a owl:Class ;
+    rdfs:subClassOf [ owl:intersectionOf [ a owl:Restriction ;
+                    owl:onProperty chron:hasIntensity ;
+                    owl:oneValueFrom [ rdf:first chron:Severe ] ],
+                [ a owl:Restriction ;
+                    owl:onProperty chron:isLocated ;
+                    owl:oneValueFrom [ rdf:first chron:Unilateral ;
+                            rdf:rest [ rdf:first chron:Orbital ] ] ],
+                [ a owl:Restriction ;
+                    owl:onProperty chron:hasSymptom ;
+                    owl:someValuesFrom [ rdf:first chron:Conjunctival_Injection ;
+                            rdf:rest [ rdf:first chron:Lacrimation ;
+                                    rdf:rest [ rdf:first chron:Nasal_Congestion ;
+                                            rdf:rest [ rdf:first chron:Rhinorrhoea ;
+                                                    rdf:rest [ rdf:first chron:Eyelid_Oedema ;
+                                                            rdf:rest [ rdf:first chron:Sweating ;
+                                                                    rdf:rest [ rdf:first chron:Miosis ;
+                                                                            rdf:rest [ rdf:first chron:Ptosis ] ] ] ] ] ] ] ] ],
+                [ a owl:Restriction ;
+                    owl:onProperty chron:hasDuration ;
+                    owl:oneValueFrom [ rdf:first chron:DurationGroupE ;
+                            rdf:rest [ rdf:first chron:DurationGroupF ] ] ] ] ;
+    owl:sameAs <http://purl.bioontology.org/ontology/SNOMEDCT/193031009> .
+
+chron:Migraine a owl:Class ;
+    rdfs:subClassOf [ owl:intersectionOf [ a owl:Restriction ;
+                    owl:onProperty chron:hasIntensity ;
+                    owl:oneValueFrom [ rdf:first chron:Moderate ;
+                            rdf:rest [ rdf:first chron:Severe ] ] ],
+                [ a owl:Restriction ;
+                    owl:onProperty chron:hasDuration ;
+                    owl:oneValueFrom [ rdf:first chron:DurationGroupH ] ],
+                [ a owl:Restriction ;
+                    owl:onProperty chron:isLocated ;
+                    owl:oneValueFrom [ rdf:first chron:Unilateral ] ],
+                [ a owl:Restriction ;
+                    owl:onProperty chron:isCharacterizedByPain ;
+                    owl:oneValueFrom [ rdf:first chron:Pulsating ] ],
+                [ a owl:Restriction ;
+                    owl:onProperty chron:hasSymptom ;
+                    owl:someValuesFrom [ rdf:first chron:Nausea ;
+                            rdf:rest [ rdf:first chron:Vomiting ;
+                                    rdf:rest [ rdf:first chron:Photophobia ;
+                                            rdf:rest [ rdf:first chron:Phonophobia ;
+                                                    rdf:rest [ rdf:first chron:Aggravated ] ] ] ] ] ] ] ;
+    owl:sameAs <http://purl.bioontology.org/ontology/SNOMEDCT/37796009> .
+
+chron:Tension a owl:Class ;
+    rdfs:subClassOf [ owl:intersectionOf [ a owl:Restriction ;
+                    owl:onProperty chron:isCharacterizedByPain ;
+                    owl:oneValueFrom [ rdf:first chron:Pressing ] ],
+                [ a owl:Restriction ;
+                    owl:onProperty chron:hasIntensity ;
+                    owl:oneValueFrom [ rdf:first chron:Mild ;
+                            rdf:rest [ rdf:first chron:Moderate ] ] ],
+                [ a owl:Restriction ;
+                    owl:onProperty chron:isLocated ;
+                    owl:oneValueFrom [ rdf:first chron:Bilateral ] ],
+                [ a owl:Restriction ;
+                    owl:onProperty chron:hasDuration ;
+                    owl:oneValueFrom [ rdf:first chron:DurationGroupE ;
+                            rdf:rest [ rdf:first chron:DurationGroupF ;
+                                    rdf:rest [ rdf:first chron:DurationGroupG ;
+                                            rdf:rest [ rdf:first chron:DurationGroupH ;
+                                                    rdf:rest [ rdf:first chron:DurationGroupI ;
+                                                            rdf:rest [ rdf:first chron:DurationGroupJ ] ] ] ] ] ] ],
+                [ a owl:Restriction ;
+                    owl:onProperty chron:hasSymptom ;
+                    owl:oneValueFrom [ rdf:first chron:Photophobia ;
+                            rdf:rest [ rdf:first chron:Phonophobia ] ] ] ] ;
+    owl:sameAs <http://purl.bioontology.org/ontology/SNOMEDCT/398057008> .
+

@@ -5,8 +5,8 @@ from rdflib.extras.infixowl import Restriction, Individual
 import pandas as pd
 import numpy as np
 from urllib.request import urlopen, quote
-import mappings as mappings
-import concepts as concepts
+import SemanticProcessor.mappings as mappings
+import SemanticProcessor.concepts as concepts
 #from SemanticProcessor.snomed import getDescriptionsByString
 
 chronicals = Namespace(concepts.BASE_URL)

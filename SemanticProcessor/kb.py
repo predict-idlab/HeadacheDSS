@@ -297,6 +297,6 @@ def generate_ICHD_KB():
 	g.add( (characterisation_bnode, OWL.onProperty, concepts.characterisation_predicate) )
 	g.add( (characterisation_bnode, OWL.oneValueFrom, characterisation_list_object) )
 
-	g.serialize(destination='SemanticProcessor/data/ICHD_KB.ttl', format='turtle')
+	g.serialize(destination='data/ICHD_KB.ttl', format='turtle')
 	
 	#return g
