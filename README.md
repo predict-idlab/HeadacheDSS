@@ -8,10 +8,10 @@ to generate predictions for different over-sampling techniques and different fea
 predictions are stored in the output folder, which can then be processed in order to calculate different metrics 
 (such as accuracy and Cohen's Kappa score) followed by bootstrap testing in order to test statistical significance.
 
-## 1. Installing all dependencies
+### 1. Installing all dependencies
 
-## 2. Generating the Knowledge Base with the SemanticProcessor
+### 2. Generating the Knowledge Base with the SemanticProcessor
 
-## 3. Over-sampling with prior knowledge vs ADASYN, SMOTE and weighted samples
+### 3. Over-sampling with prior knowledge vs ADASYN, SMOTE and weighted samples
 
-## 4. Generating unsupervised features with the Weisfeiler-Lehman kernel
+### 4. Generating unsupervised features with the Weisfeiler-Lehman kernel
