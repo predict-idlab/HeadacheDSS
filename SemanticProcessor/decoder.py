@@ -6,8 +6,8 @@ import pandas as pd
 import numpy as np
 from flask import Flask
 from urllib.request import urlopen, quote
-import SemanticProcessor.mappings as mappings
-import SemanticProcessor.concepts as concepts
+import mappings as mappings
+import concepts as concepts
 
 chronicals = Namespace(concepts.BASE_URL)
 namespace_manager = NamespaceManager(Graph())

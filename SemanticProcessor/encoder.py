@@ -5,9 +5,9 @@ from rdflib.extras.infixowl import Restriction, Individual
 import pandas as pd
 import numpy as np
 from urllib.request import urlopen, quote
-import SemanticProcessor.mappings as mappings
-import SemanticProcessor.concepts as concepts
-from SemanticProcessor.snomed import getDescriptionsByString
+import mappings as mappings
+import concepts as concepts
+#from SemanticProcessor.snomed import getDescriptionsByString
 
 chronicals = Namespace(concepts.BASE_URL)
 namespace_manager = NamespaceManager(Graph())
@@ -47,12 +47,12 @@ def encode(headache_csv, output_path='data/headache_KG.ttl'):
 	for symptom in mappings.symptom_to_URI:
 		query = mappings.symptom_to_URI[symptom].split('/')[-1].replace('_', ' ')
 		g.add( (mappings.symptom_to_URI[symptom], RDF.type, concepts.symptom_type) )
-		g.add( (mappings.symptom_to_URI[symptom], OWL.sameAs, URIRef(getDescriptionsByString(query, semTag='finding'))) )
+		#g.add( (mappings.symptom_to_URI[symptom], OWL.sameAs, URIRef(getDescriptionsByString(query, semTag='finding'))) )
 
 	# For each diagnose, we create a entity
 	for diagnose in mappings.diagnoses_to_URI:
 		g.add( (mappings.diagnoses_to_URI[diagnose], RDF.type, concepts.diagnose_type) )
-		g.add( (mappings.diagnoses_to_URI[diagnose], OWL.sameAs, URIRef(getDescriptionsByString(mappings.diagnoses_to_URI[diagnose].split('/')[-1], semTag='disorder'))) )
+		#g.add( (mappings.diagnoses_to_URI[diagnose], OWL.sameAs, URIRef(getDescriptionsByString(mappings.diagnoses_to_URI[diagnose].split('/')[-1], semTag='disorder'))) )
 
 	# Entities for pain characterisations
 	for characterisation in mappings.characterisation_to_URI:

@@ -27,7 +27,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Read the data
-migbase = pd.read_csv('data/migbase.csv')
+migbase = pd.read_csv('data/migbase_encoded.csv').drop('Unnamed: 0', axis=1)
 
 # Filter out columns with more than 1 unique values
 _columns = [col for col in migbase.columns
@@ -205,10 +205,10 @@ def oversample_prior_knowledge(X_train, y_train):
 N_SIMULATIONS = 100
 samplers = {
     'None': oversample_none,
-        'SMOTE': oversample_SMOTE,
-        'ADASYN': oversample_ADASYN,
-        'Prior Knowledge': oversample_prior_knowledge,
-        'Sample Weight': oversample_weighted
+    'SMOTE': oversample_SMOTE,
+    'ADASYN': oversample_ADASYN,
+    'Prior Knowledge': oversample_prior_knowledge,
+    'Sample Weight': oversample_weighted
 }
 
 # Create the output directory and subdirectories if needed
@@ -239,7 +239,7 @@ for _ in range(N_SIMULATIONS):
             dt = tree.DecisionTreeClassifier(
                 random_state=SEED,
                 criterion='entropy',
-                class_weight=weights)
+                class_weight=[None, 'balanced'][sampler == 'Sample Weight'])
             dt.fit(X_train, y_train)
             preds[test_idx, :] = dt.predict_proba(X_test)
         preds_df = pd.DataFrame(

@@ -1,7 +1,7 @@
 from rdflib import URIRef, BNode, Literal, Graph, Namespace
 from rdflib.namespace import RDF, FOAF, OWL, RDFS, NamespaceManager
 from rdflib.extras.infixowl import Restriction, Individual
-import SemanticProcessor.concepts as concepts
+import concepts as concepts
 import numpy as np
 
 
