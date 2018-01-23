@@ -1,10 +1,12 @@
 import pickle
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
+from sklearn.metrics import cohen_kappa_score, accuracy_score
 
-PATH = 'acc_per_sampler.p'
+# PATH = 'acc_per_sampler.p'
 
-metrics = pickle.load(open(PATH, 'rb'))
+# metrics = pickle.load(open(PATH, 'rb'))
 
 def bootstrap_test(samples_A, samples_B, repeat=100000):
     """
@@ -37,6 +39,24 @@ def bootstrap_test(samples_A, samples_B, repeat=100000):
     p = float((t > t_star).sum() + (t < -t_star).sum()) / repeat
     return p
 
+
+CLASS_MAPPING = {'cluster': 0, 'tension': 1, 'migraine': 2}
+migbase = pd.read_csv('data/migbase.csv')
+GROUND_TRUTH = migbase['CLASS'].map(CLASS_MAPPING)
+
+def calculate_metrics(prediction_file):
+    pred_df = pd.read_csv(prediction_file)
+    pred_df = pred_df.drop('Unnamed: 0', axis=1)
+    predicted_classes = np.argmax(pred_df.values, axis=1)
+    accuracy = accuracy_score(GROUND_TRUTH, predicted_classes)
+    kappa = cohen_kappa_score(GROUND_TRUTH, predicted_classes)
+
+    return accuracy, kappa
+
+
+print(calculate_metrics('output/oversampling/ADASYN/preds_61007.csv'))
+
+"""
 from scipy.stats import ttest_ind, ttest_rel
 
 for sampler1 in metrics:
@@ -49,3 +69,4 @@ for sampler1 in metrics:
                 	                                                                   bootstrap_test(metrics[sampler1], metrics[sampler2]),
                 	                                                                   np.mean(metrics[sampler1]), np.std(metrics[sampler1]),
                                                                                        np.mean(metrics[sampler2]), np.std(metrics[sampler2])))
+"""
