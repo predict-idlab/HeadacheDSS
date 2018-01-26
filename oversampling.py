@@ -43,10 +43,10 @@ migbase = migbase[migbase['CLASS'] != 'no headache']
 
 def preprocess(features, labels):
     """Preprocess the feature and label dataframe. Parse all categorical
-string variables to integers and map each class/label to an
-integer"""
+    string variables to integers and map each class/label to an
+    integer"""
 
-# Dictionary with mappings from string variables to integers
+    # Dictionary with mappings from string variables to integers
     mapping_per_class = {
         # Duration group is a discretization of the headache duration
             # It is thus an ordinal variable.
@@ -205,7 +205,7 @@ def oversample_prior_knowledge(X_train, y_train):
     return X_train, y_train, np.array([1.0] * len(y_train))
 
 
-N_SIMULATIONS = 10
+N_SIMULATIONS = 50
 samplers = {
     'None': oversample_none,
     'SMOTE': oversample_SMOTE,
@@ -228,7 +228,7 @@ for _ in tqdm.tqdm(range(N_SIMULATIONS)):
     # Generate a random seed, to make sure every sampler gets the same data
     SEED = np.random.randint(1000000)
     np.random.seed(SEED)
-    skf = StratifiedKFold(n_splits=5, random_state=SEED)
+    skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=SEED)
     for sampler in samplers:
         preds = np.zeros((len(labels), 3))
         for i, (train_idx, test_idx) in enumerate(skf.split(features, labels)):
