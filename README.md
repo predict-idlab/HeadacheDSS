@@ -26,5 +26,6 @@ In order to reproduce the results from the overbalancing experiment, where multi
 
 ### 4. Generating unsupervised features with the Weisfeiler-Lehman kernel
 
+First, generate the features that express the distance (in the graph domain) to each class concept, using the Weisfeiler-Lehman kernel. To do this, run `python3 generate_features.py`.
 
 ### 5. Evaluating the generated prediction files

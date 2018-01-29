@@ -130,7 +130,3 @@ def generate_samples(class_name, graphs, n=10, output_path='../data/generated_sa
 
 
 	new_graph.serialize(destination=output_path, format='turtle')
-
-#generate_samples('Migraine', ['data/headache_KG.ttl', 'data/ICHD_KB.ttl'], output_path='data/generated_samples_migraine.ttl')
-#generate_samples('Cluster', ['data/headache_KG.ttl', 'data/ICHD_KB.ttl'], output_path='data/generated_samples_cluster.ttl')
-#generate_samples('Tension', ['data/headache_KG.ttl', 'data/ICHD_KB.ttl'], output_path='data/generated_samples_tension.ttl')
