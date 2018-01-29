@@ -2,9 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import os
+from terminaltables import AsciiTable
 from sklearn.metrics import cohen_kappa_score, accuracy_score
 
-def bootstrap_test(samples_A, samples_B, repeat=100000, plot=False):
+def bootstrap_test(samples_A, samples_B, repeat=10, plot=False):
     """
     Calculate bootstrap test statistic. 
     Important: mean_A - mean_B >= 0.
@@ -79,8 +80,11 @@ else:
         for _file in os.listdir(root+algorithm):
             metrics[algorithm].append(calculate_metrics(root+algorithm+os.sep+_file))
 
-
+    table_data = [['', METRIC]]
     for sampler1 in metrics:
+        table_row = [sampler1, '{}+/-{}'.format(np.round(np.mean(metrics[sampler1]), 6),
+                                                np.round(np.std(metrics[sampler1]), 4))]
+        table_data.append(table_row)
         for sampler2 in metrics:
             if sampler1 != sampler2:
                 frmt_str = '{} vs. {}: p={}, mean_A,std_A={},{}; mean_B,std_B={},{}'
@@ -89,3 +93,6 @@ else:
                     np.mean(metrics[sampler1]), np.std(metrics[sampler1]), np.mean(metrics[sampler2]), 
                     np.std(metrics[sampler2])
                 ))
+
+    table = AsciiTable(table_data)
+    print(table.table)
