@@ -27,6 +27,8 @@ import warnings
 
 import tqdm
 
+import click
+
 warnings.filterwarnings('ignore')
 
 # Read the data
@@ -204,51 +206,55 @@ def oversample_prior_knowledge(X_train, y_train):
 
     return X_train, y_train, np.array([1.0] * len(y_train))
 
+@click.command()
+@click.option('--n_simulations', default=100, help='The number of simulations')
+def run_simulations(n_simulations):
+    samplers = {
+        'None': oversample_none,
+        'SMOTE': oversample_SMOTE,
+        'ADASYN': oversample_ADASYN,
+        'Prior Knowledge': oversample_prior_knowledge,
+        'Sample Weight': oversample_weighted
+    }
 
-N_SIMULATIONS = 50
-samplers = {
-    'None': oversample_none,
-    'SMOTE': oversample_SMOTE,
-    'ADASYN': oversample_ADASYN,
-    'Prior Knowledge': oversample_prior_knowledge,
-    'Sample Weight': oversample_weighted
-}
-
-# Create the output directory and subdirectories if needed
-if not os.path.exists('output'):
-    os.makedirs('output')
-if not os.path.exists('output' + os.sep + 'oversampling'):
-    os.makedirs('output' + os.sep + 'oversampling')
-for sampler in samplers:
-    if not os.path.exists('output' + os.sep + 'oversampling' + os.sep + sampler):
-        os.makedirs('output' + os.sep + 'oversampling' + os.sep + sampler)
-
-
-for _ in tqdm.tqdm(range(N_SIMULATIONS)):
-    # Generate a random seed, to make sure every sampler gets the same data
-    SEED = np.random.randint(1000000)
-    np.random.seed(SEED)
-    skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=SEED)
+    # Create the output directory and subdirectories if needed
+    if not os.path.exists('output'):
+        os.makedirs('output')
+    if not os.path.exists('output' + os.sep + 'oversampling'):
+        os.makedirs('output' + os.sep + 'oversampling')
     for sampler in samplers:
-        preds = np.zeros((len(labels), 3))
-        for i, (train_idx, test_idx) in enumerate(skf.split(features, labels)):
-            X_train = features.iloc[train_idx, :]
-            X_test = features.iloc[test_idx, :]
-            y_train = labels.iloc[train_idx]
-            y_test = labels.iloc[test_idx]
+        if not os.path.exists('output' + os.sep + 'oversampling' + os.sep + sampler):
+            os.makedirs('output' + os.sep + 'oversampling' + os.sep + sampler)
 
-            X_train, y_train, weights = samplers[sampler](X_train, y_train)
 
-            dt = tree.DecisionTreeClassifier(
-                random_state=SEED,
-                criterion='entropy',
-                class_weight=[None, 'balanced'][sampler == 'Sample Weight'])
-            dt.fit(X_train, y_train)
-            preds[test_idx, :] = dt.predict_proba(X_test)
-        preds_df = pd.DataFrame(
-            preds,
-            columns=['cluster_prob',
-                     'tension_prob',
-                     'migraine_prob'])
-        preds_df.to_csv('output' + os.sep + 'oversampling' +
-                        os.sep + sampler + os.sep + 'preds_' + str(SEED) + '.csv')
+    for _ in tqdm.tqdm(range(n_simulations)):
+        # Generate a random seed, to make sure every sampler gets the same data
+        SEED = np.random.randint(1000000)
+        np.random.seed(SEED)
+        skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=SEED)
+        for sampler in samplers:
+            preds = np.zeros((len(labels), 3))
+            for i, (train_idx, test_idx) in enumerate(skf.split(features, labels)):
+                X_train = features.iloc[train_idx, :]
+                X_test = features.iloc[test_idx, :]
+                y_train = labels.iloc[train_idx]
+                y_test = labels.iloc[test_idx]
+
+                X_train, y_train, weights = samplers[sampler](X_train, y_train)
+
+                dt = tree.DecisionTreeClassifier(
+                    random_state=SEED,
+                    criterion='entropy',
+                    class_weight=[None, 'balanced'][sampler == 'Sample Weight'])
+                dt.fit(X_train, y_train)
+                preds[test_idx, :] = dt.predict_proba(X_test)
+            preds_df = pd.DataFrame(
+                preds,
+                columns=['cluster_prob',
+                         'tension_prob',
+                         'migraine_prob'])
+            preds_df.to_csv('output' + os.sep + 'oversampling' +
+                            os.sep + sampler + os.sep + 'preds_' + str(SEED) + '.csv')
+
+if __name__ == '__main__':
+    run_simulations()

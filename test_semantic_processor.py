@@ -5,6 +5,8 @@ import numpy as np
 from rdflib import Graph
 import pandas as pd
 
+# Test whether decode(encode(data)) == data
+
 # Encode KG
 encode('data/migbase.csv', output_path='data/headache_KG.ttl')
 
@@ -32,6 +34,3 @@ df = df[migbase.columns]
 
 # Test equality of original and decode(encode(original))
 np.testing.assert_array_equal(migbase.values, df.values)
-
-# Generate the KB from the ICHD document
-generate_ICHD_KB()
