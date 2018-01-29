@@ -1,5 +1,6 @@
 import rdflib
 import copy
+from WFL.graph import Graph, Vertex
 
 namespaces = {'http://chronicals.ugent.be/': 'chron:',
               'http://purl.bioontology.org/ontology/SNOMEDCT/': 'snomed:',

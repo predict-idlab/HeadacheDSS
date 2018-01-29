@@ -37,7 +37,8 @@ class Graph(object):
         self.transition_matrix[v1][v2] = 0
 
     def get_neighbors(self, vertex):
-        return [k for (k, v) in self.transition_matrix[vertex].items() if v == 1]
+        nodes = self.transition_matrix[vertex].items()
+        return [k for (k, v) in nodes if v == 1]
 
     def relabel_nodes(self, mapping):
         for v in self.vertices:
