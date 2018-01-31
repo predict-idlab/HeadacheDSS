@@ -30,7 +30,7 @@ First, generate the features that express the distance (in the graph domain) to 
 
 `python3 generate_features.py`
 
-Afterwards, generate prediction files again (stored in output/features/<TECHNIQUE>), by runnig
+Afterwards, generate prediction files again (stored in output/features/<TECHNIQUE>), by running
 
 `python3 oversampling.py --n_simulations <N>`
 
@@ -55,7 +55,7 @@ Options:
 
 ![An example of the results generation for oversampling](img/oversampling.png)
 
-2. Generating results for feature extraction methods
+2. Generating results for feature extraction methods (this requires `wf_features.p` to be in the `data/` directory)
 
 ![An example of the results generation for feature extractors](img/features.png)
 
