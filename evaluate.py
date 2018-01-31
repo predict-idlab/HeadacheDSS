@@ -3,9 +3,10 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 from terminaltables import AsciiTable
-from sklearn.metrics import cohen_kappa_score, accuracy_score
+from sklearn.metrics import cohen_kappa_score, accuracy_score, f1_score
+import click
 
-def bootstrap_test(samples_A, samples_B, repeat=1000, plot=False):
+def bootstrap_test(samples_A, samples_B, repeat=100000, plot=False):
     """
     Calculate bootstrap test statistic. 
     Important: mean_A - mean_B >= 0.
@@ -47,11 +48,6 @@ def bootstrap_test(samples_A, samples_B, repeat=1000, plot=False):
     p = float((t > t_star).sum() + (t < -t_star).sum()) / repeat
     return p
 
-
-MODE = 'oversampling' # Choose 'oversampling', 'features' or 'both'
-METRIC = 'all' # Choose 'accuracy', 'kappa' or 'all'
-metrics = ['accuracy', 'kappa']
-
 # Create the ground truth
 migbase = pd.read_csv('data/migbase.csv')
 CLASS_MAPPING = {'cluster': 0, 'tension': 1, 'migraine': 2}
@@ -65,11 +61,17 @@ def calculate_metrics(prediction_file, metric):
     predicted_classes = np.argmax(pred_df.values, axis=1)
     if metric == 'accuracy':
         return accuracy_score(GROUND_TRUTH, predicted_classes)
-    if metric == 'kappa':
+    elif metric == 'kappa':
         return cohen_kappa_score(GROUND_TRUTH, predicted_classes)
+    elif metric == 'f1_cluster':
+        return f1_score(GROUND_TRUTH, predicted_classes, labels=[0], average='micro')
+    elif metric == 'f1_tension':
+        return f1_score(GROUND_TRUTH, predicted_classes, labels=[1], average='micro')
+    elif metric == 'f1_migraine':
+        return f1_score(GROUND_TRUTH, predicted_classes, labels=[2], average='micro')
 
-def generate_table(metric):
-    root = 'output/'+MODE+'/'
+def generate_table_data(mode, metric):
+    root = 'output/'+mode+'/'
     metrics = {}
     for algorithm in os.listdir(root):
         metrics[algorithm] = []
@@ -101,26 +103,32 @@ def generate_table(metric):
 
     return metric_table_data, significance_table_data
 
-# Depending on the mode, iterate over directories in output/
-# Calculate accuracy or kappa metrics, add them to a dict
-# and apply bootstrap testing
-if MODE == 'both':
-    pass
-else:
-    if METRIC == 'all':
-        for metric in metrics:
-            metric_table_data, significance_table_data = generate_table(metric)
-            print('{} table'.format(metric))
-            metric_table = AsciiTable(metric_table_data)
-            print(metric_table.table)
-            print('Statistical Significance (bootstrap testing)')
-            significance_table = AsciiTable(significance_table_data)
-            print(significance_table.table)
+@click.command()
+@click.option('--mode', default='oversampling', help='The mode to use: either "oversampling", "features" or "both"')
+@click.option('--metric', default='all',
+              help='The metrics to calculate: either "all" or on from ["accuracy", "kappa", "f1_cluster", "f1_tension", "f1_migraine"]')
+def generate_tables(mode, metric):
+    # Depending on the mode, iterate over directories in output/
+    # Calculate accuracy or kappa metrics, add them to a dict
+    # and apply bootstrap testing
+    metrics = ['accuracy', 'kappa', 'f1_cluster', 'f1_tension', 'f1_migraine']
+    if mode == 'both':
+        pass
     else:
-        metric_table_data, significance_table_data = generate_table(METRIC)
-        print('{} table'.format(METRIC))
-        metric_table = AsciiTable(metric_table_data)
-        print(metric_table.table)
-        print('Statistical Significance (bootstrap testing)')
-        significance_table = AsciiTable(significance_table_data)
-        print(significance_table.table)
+        if metric == 'all':
+            for metric in metrics:
+                metric_table_data, significance_table_data = generate_table_data(mode, metric)
+                metric_table = AsciiTable(metric_table_data, '{}: {}'.format(mode, metric))
+                print(metric_table.table)
+                significance_table = AsciiTable(significance_table_data, '{}: {} Significance'.format(mode, metric))
+                print(significance_table.table)
+        else:
+            metric_table_data, significance_table_data = generate_table_data(mode, metric)
+            print('{} table'.format(metric))
+            metric_table = AsciiTable(metric_table_data, '{}: {}'.format(mode, metric))
+            print(metric_table.table)
+            significance_table = AsciiTable(significance_table_data, '{}: {} Significance'.format(mode, metric))
+            print(significance_table.table)
+
+if __name__ == '__main__':
+    generate_tables()
