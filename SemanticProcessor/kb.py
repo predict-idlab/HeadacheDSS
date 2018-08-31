@@ -4,7 +4,6 @@ from rdflib.namespace import RDF, FOAF, OWL, RDFS, NamespaceManager
 from rdflib.extras.infixowl import Restriction, Individual
 import pandas as pd
 import numpy as np
-from flask import Flask
 from urllib.request import urlopen, quote
 import SemanticProcessor.mappings as mappings
 import SemanticProcessor.concepts as concepts
