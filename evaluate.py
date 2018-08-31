@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 from terminaltables import AsciiTable
-from sklearn.metrics import cohen_kappa_score, accuracy_score, f1_score
+from sklearn.metrics import cohen_kappa_score, accuracy_score, f1_score, confusion_matrix
 import click
 
 def bootstrap_test(samples_A, samples_B, repeat=100000, plot=False):
@@ -69,6 +69,38 @@ def calculate_metrics(prediction_file, metric):
         return f1_score(GROUND_TRUTH, predicted_classes, labels=[1], average='micro')
     elif metric == 'f1_migraine':
         return f1_score(GROUND_TRUTH, predicted_classes, labels=[2], average='micro')
+    elif metric == 'sensitivity_cluster':
+        # Sensitivity is equal to TP/(TP+FN) (recall)
+        GROUND_TRUTH_BINARY = GROUND_TRUTH.map({0: 1, 1: 0, 2: 0})
+        predicted_classes_binary = pd.Series(predicted_classes).map({0: 1, 1: 0, 2: 0})
+        tn, fp, fn, tp = confusion_matrix(GROUND_TRUTH_BINARY, predicted_classes_binary).ravel()
+        return tp / (fn + tp)
+    elif metric == 'specificity_cluster':
+        # Specificity is equal to TN/(TN+FP)
+        GROUND_TRUTH_BINARY = GROUND_TRUTH.map({0: 1, 1: 0, 2: 0})
+        predicted_classes_binary = pd.Series(predicted_classes).map({0: 1, 1: 0, 2: 0})
+        tn, fp, fn, tp = confusion_matrix(GROUND_TRUTH_BINARY, predicted_classes_binary).ravel()
+        return tn / (tn + fp)
+    elif metric == 'sensitivity_tension':
+        GROUND_TRUTH_BINARY = GROUND_TRUTH.map({0: 0, 1: 1, 2: 0})
+        predicted_classes_binary = pd.Series(predicted_classes).map({0: 0, 1: 1, 2: 0})
+        tn, fp, fn, tp = confusion_matrix(GROUND_TRUTH_BINARY, predicted_classes_binary).ravel()
+        return tp / (fn + tp)
+    elif metric == 'specificity_tension':
+        GROUND_TRUTH_BINARY = GROUND_TRUTH.map({0: 0, 1: 1, 2: 0})
+        predicted_classes_binary = pd.Series(predicted_classes).map({0: 0, 1: 1, 2: 0})
+        tn, fp, fn, tp = confusion_matrix(GROUND_TRUTH_BINARY, predicted_classes_binary).ravel()
+        return tn / (tn + fp)
+    elif metric == 'sensitivity_migraine':
+        GROUND_TRUTH_BINARY = GROUND_TRUTH.map({0: 0, 1: 0, 2: 1})
+        predicted_classes_binary = pd.Series(predicted_classes).map({0: 0, 1: 0, 2: 1})
+        tn, fp, fn, tp = confusion_matrix(GROUND_TRUTH_BINARY, predicted_classes_binary).ravel()
+        return tp / (fn + tp)
+    elif metric == 'specificity_migraine':
+        GROUND_TRUTH_BINARY = GROUND_TRUTH.map({0: 0, 1: 0, 2: 1})
+        predicted_classes_binary = pd.Series(predicted_classes).map({0: 0, 1: 0, 2: 1})
+        tn, fp, fn, tp = confusion_matrix(GROUND_TRUTH_BINARY, predicted_classes_binary).ravel()
+        return tn / (tn + fp)
 
 def generate_table_data(mode, metric):
     root = 'output/'+mode+'/'
@@ -111,7 +143,9 @@ def generate_tables(mode, metric):
     # Depending on the mode, iterate over directories in output/
     # Calculate accuracy or kappa metrics, add them to a dict
     # and apply bootstrap testing
-    metrics = ['accuracy', 'kappa', 'f1_cluster', 'f1_tension', 'f1_migraine']
+    metrics = ['sensitivity_cluster', 'accuracy', 'kappa', 'f1_cluster', 'f1_tension', 'f1_migraine', 
+               'specificity_cluster', 'sensitivity_tension', 'specificity_tension', 'sensitivity_migraine',
+               'specificity_migraine']
     if mode == 'both':
         pass
     else:
